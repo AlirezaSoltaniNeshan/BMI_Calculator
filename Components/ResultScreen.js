@@ -23,9 +23,6 @@ const ResultScreen = ({navigation}) =>{
                     style={{width:264.195, height: 169.615, zIndex:-1, position:'absolute', bottom:0, alignSelf:'flex-end'}}
                  />
 
-
-
-
             </View>
 
             <TouchableOpacity
