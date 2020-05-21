@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "BMI",
+    "slug": "BMI",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/image/icon.png",
+    "splash": {
+      "image": "./assets/image/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/image/*"
+    ],
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "package": "com.asn.BMICalculator",
+      "versionCode": 2
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.asn.CalculateBMI",
+      "buildNumber": "2.0.0",
+      "userInterfaceStyle": "automatic"
+    } 
+  }
+}

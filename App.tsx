@@ -5,12 +5,11 @@ import index from './src/screen/index.js';
 import ResultScreen from './src/components/ResultScreen.js'
 const navigator = createStackNavigator({
   index:index,
-  ResultScreen:ResultScreen
+  ResultScreen:ResultScreen,
 },
 {
   initialRouteName:'index',
   defaultNavigationOptions:{
-    // title:'Programming user translator',
     headerShown:false,
     ...TransitionPresets.ModalPresentationIOS,
     cardOverlayEnabled:true,

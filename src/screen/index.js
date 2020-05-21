@@ -47,7 +47,7 @@ const index = ({navigation}) =>{
         <View style={{flex:1, flexDirection:'column'}}> 
             <View style={styles.mainContainer}>
                 <Image
-                    source={require('../../assets/mainImg.png')}
+                    source={require('../../assets/image/mainImg.png')}
                     style={{width:528.39, height: 339.23, zIndex:-1}}
                  />
                  <Text style={styles.testTxt}>CALCULATE</Text>
@@ -156,3 +156,6 @@ const styles = StyleSheet.create({
       }
 });
 export default index
+
+
+

@@ -19,9 +19,12 @@ const ResultScreen = ({navigation}) =>{
 
             <View style={styles.placeOfImage}>
                 <Image
-                    source={require('../../assets/end.png')}
+                    source={require('../../assets/image/end.png')}
                     style={{width:264.195, height: 169.615, zIndex:-1, position:'absolute', bottom:0, alignSelf:'flex-end'}}
                  />
+
+
+
 
             </View>
 
